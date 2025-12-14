@@ -1,0 +1,31 @@
+{
+    "token": "YOUR_DISCORD_BOT_TOKEN",
+    "rcon_host": "127.0.0.1",
+    "rcon_port": 27015,
+    "query_port": 16261,
+    "rcon_password": "YOUR_RCON_PASSWORD",
+    "server_name": "My Zomboid Server",
+    "test_guild_id": "YOUR_TEST_DISCORD_SERVER_ID",
+    "owner_id": "YOUR_DISCORD_USER_ID",
+    "steam_web_api_key": "YOUR_STEAM_WEB_API_KEY",
+    "mod_update_checker": {
+        "enabled": true,
+        "check_interval_minutes": 10,
+        "server_ini_path": "/home/zomboid/Zomboid/Server",
+        "announcement_channel_id": "CHANNEL_ID_FOR_MOD_UPDATE_ANNOUNCEMENTS"
+    },
+    "scheduled_restarts": {
+        "enabled": true,
+        "times": [
+            "02:00",
+            "14:00"
+        ],
+        "timezone": "America/New_York",
+        "announcement_channel_id": "CHANNEL_ID_FOR_RESTART_ANNOUNCEMENTS"
+    },
+    "log_dump": {
+        "enabled": true,
+        "log_file_path": "/home/zomboid/log/console/pzserver-console.log",
+        "channel_id": "CHANNEL_ID_FOR_LOG_DUMPS"
+    }
+}

@@ -1,0 +1,10 @@
+# Ignore the local config file with sensitive information
+config.json
+
+# Ignore python cache
+__pycache__/
+*.pyc
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
